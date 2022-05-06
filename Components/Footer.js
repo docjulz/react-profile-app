@@ -2,8 +2,11 @@ import React from "react"
 
 export default function Footer() {
     return (
-        <>
-            <h1>This is a test</h1>
-        </>
+        <div className="footer__container">
+            <span className="footer__icon"><i className="fa-brands fa-twitter-square "></i></span>
+            <span className="footer__icon"><i className="fa-brands fa-facebook-square"></i></span>
+            <span className="footer__icon"><i className="fa-brands fa-instagram-square"></i></span>
+            <span className="footer__icon"><i className="fa-brands fa-github-square"></i></span>
+        </div>
     )
 }
